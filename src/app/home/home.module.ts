@@ -2,9 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HomeNavComponent } from './home-nav/home-nav.component';
 import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
-import { HomeSmartphoneComponent } from './home-smartphone/home-smartphone.component';
-import { HomeLaptopComponent } from './home-laptop/home-laptop.component';
 import { HomePromotionComponent } from './home-promotion/home-promotion.component';
+import { HomeCardProductComponent } from './home-card-product/home-card-product.component';
 
 
 
@@ -16,16 +15,20 @@ import { HomePromotionComponent } from './home-promotion/home-promotion.componen
    
   HomeCarouselComponent,
    
-  HomeSmartphoneComponent,
+
+
    
-  HomeLaptopComponent,
+  HomePromotionComponent,
    
-  HomePromotionComponent],
+
+
+   
+  HomeCardProductComponent],
   imports: [
     BrowserModule
   ],
   exports: [
-    HomeNavComponent,HomeCarouselComponent,HomeSmartphoneComponent,HomeLaptopComponent,HomePromotionComponent
+    HomeNavComponent,HomeCarouselComponent,HomePromotionComponent,HomeCardProductComponent
   ]
  
 })
